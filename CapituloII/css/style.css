@@ -1,0 +1,223 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Roboto:900,300,400);
+
+/*---------------General----------------*/
+body {
+	background: white;
+	font-family: Roboto , sans-serif;
+	min-width: 900px;
+	color: white;
+}
+li {
+	list-style: none;
+}
+a {
+	color:white;
+	text-decoration: none;
+}
+/*---------------Header------------------*/
+header {
+	//float:left;
+	background-color: black;
+	//width: 12%;
+	//height: 5em;
+        text-aling: center;
+	box-shadow: 0 0.25rem 0.5rem black; 
+}
+/*header img {
+	height: 4em;
+	margin: 1rem 0;
+}*/
+nav {
+	//float: left;
+	background-color: black;
+	width: 88%;
+	height: 5em;
+	box-shadow: 0 0.25rem 0.5rem black; 
+}
+nav > ul > li {
+	display: inline-block;
+	//float: right;
+	margin: 0.5em ;
+	height: 5em;
+}
+nav > ul > li > a:hover {
+	color:#59BDBF;
+	font-size: 1.01em;
+}
+nav > ul > li a {
+	font-weight: bold;
+}
+nav > ul > li > ul {
+	display: none;
+	position: absolute;	
+}
+nav > ul > li:hover > ul {
+	display: inherit;
+	background-color: black;
+}
+nav > ul > li:hover > ul li{
+	width: 10rem;
+	height: 1.5em;
+}
+nav > ul > li:hover > ul li:hover a{
+	color:#59BDBF;
+}
+/*----------------------Contenido-----------------------------*/
+section {
+	clear: both;
+}
+article h2 {
+	background-color:#59BDBF ;
+	width: 100%;
+	height: 3rem;
+	box-shadow: 0 0.25rem 0.5rem black; 
+	text-align: center;
+	padding-top: 1em;
+	text-shadow: -1px -1px 1px black;
+}
+section article:first-child p {
+	display: block;
+	//float: left;
+	width: 12rem;
+	height: 12rem;
+	padding: 5%;
+	margin-top: 0;
+	margin-left: 2.5%;
+	border-radius: 50%;
+	border: #0C172B 1em inset;
+	background-color: #F18000;
+	box-shadow: 0 0.25rem 0.5rem black; 
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
+}
+section article + article p{
+	color: #0C172B;
+	margin: 0 1.5%;
+	border-left:1px #EEE solid;
+	border-right:1px #EEE solid;
+}
+section article:first-child p > a{
+	font-weight: bold;
+}
+section article:first-child ul {
+	margin-top: 1%;
+}
+section article:first-child li {
+	display: inline-block;
+	//float: right;
+	width: 15%;
+	margin-top: 1%;
+}
+section article:first-child li > a {
+	display: inline-block;
+	width: 6.5rem;
+	height: 6.5rem;
+	background-color: #59BDBF;
+	border-radius: 50%;
+	border: #0C172B 1em inset;
+	box-shadow: 0 0.25rem 0.5rem black; 
+	margin:0 0 2.5% 10%;
+	padding: 5%;
+	text-align: center;
+	text-shadow:1px 1px 1px black;
+	font-weight: bold;
+}
+section article:first-child li a:hover {
+	background-color: white;
+	color:#59BDBF;
+	box-shadow: 0 0.25rem 0.3rem black;
+	text-decoration: 10px 10px 1px black;
+	font-size: 1.05em;
+}
+
+article + article h3 {
+	clear: both;
+	background-color: #070D18;
+	height: 1.5em;
+	padding-top: 0.25rem;
+	padding-left: 2em;
+	font-weight: normal;
+	box-shadow: 0 0.25rem 0.5rem black; 
+}
+article + article img {
+	background-color: white;
+	width: 25%;
+	max-height: 20rem;
+	border: 1em #070D18 solid;
+	box-shadow: 0 0.25rem 0.5rem black; 
+	margin: 2.5% 1.5%;
+}
+article + article ul {
+	//float: right;
+	width: 60%;
+	margin: 2.5% 1% 2.5% 0;
+	color:#0C172B;
+}
+
+article + article ul li strong {
+	text-shadow:1.5px 1.5px 1px gray;
+}
+article + article > a {
+	display: block;
+	clear: both;
+	text-align: right;
+	text-decoration: none;
+	color:#F18000;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 2px #070D18;
+	font-weight: bolder;
+	margin-right: 2.5%;
+}
+article + article p a{
+	color:#070D18;
+}
+section article + article object {
+	width: 30rem;
+	height: 18rem;
+	border: 1em #070D18 solid;
+	box-shadow: 0 0.25rem 0.5rem black; 
+}
+/*-------------------------------Footer-----------------------*/
+footer {
+	clear:both;
+	border-top: 1em #070D18 solid;
+	border-bottom: 1em #070D18 solid;
+	background:#E86700;
+	box-shadow: 0 0.25rem 0.5rem black; 
+	margin-top: 1.5%;	
+}
+
+
+/*-------------index --------------*/
+#index {
+	width: 100%;
+}
+#index a{
+	//float: left;
+	width: 15.1rem;
+	height: 15.1rem;
+	margin:0 2% 2%;
+	background-image: url(../images/212px-VLC_Icon.svg.png);
+	background-color: #59BDBF;
+	background-position: center;
+	background-size: 15rem;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	border: #0C172B 1em inset;
+	box-shadow: 0 0.25rem 0.5rem black; 
+	text-align: center;
+	text-shadow:2px 2px 1px black;
+	font-weight: bold;
+	font-size: 1.05em;
+}
+#index a strong {
+	font-size: 1.25rem;
+	text-shadow:2px 2px 1px black;
+}
+#index a:hover{
+	background-color: white;
+	box-shadow: 0 0.15rem 0.25rem black; 
+	color:#59BDBF;
+}
+
