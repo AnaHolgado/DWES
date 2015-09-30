@@ -54,8 +54,7 @@
                      $aux;
                      $menor = ($num1 <= $num2 && $num1 <= $num3)?$num1: (($num2 <= $num1 && $num2 <= $num3)?$num2:$num3);
                      $mayor = ($num1 >= $num2 && $num1 >= $num3)?$num1: (($num2 >= $num1 && $num2 >= $num3)?$num2:$num3);
-                     $medio = (($num1 > $num2 && $num1 < $num3) || $num1 == $num2)?$num1:((($num2 >= $num1) && ($num2 <= $num3))|| $num2 == $num3)?$num2:$num3;
-
+                     $medio = $num1 + $num2 + $num3 -$mayor -$menor;
 
                      echo "Menor: ".$menor;
                      echo "Medio: ".$medio;
