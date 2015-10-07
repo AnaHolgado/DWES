@@ -48,7 +48,7 @@ Tendremos cuatro oportunidades para abrir la caja fuerte.
                 <p>
                 <?php
                     if (!isset($_REQUEST['enviar'])){
-                            $intentos = 5;
+                            $intentos = 4;
                             $num1 = 0;
                             $num2 = 0;
                             $num3 = 0;
