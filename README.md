@@ -1,2 +1,0 @@
-# DWES
-Ejercicios PHP
