@@ -1,0 +1,64 @@
+/* CSS Document */
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+            
+/*Header*/
+#header {
+    margin: -2.5em 0 -1.5em;
+    padding: 0.5em 0;
+}
+#header h1, #header h2{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #222;
+}
+/*Navegador Principal*/
+nav#nav-principal ul li a{
+    font-size: 0.40em;
+    font-weight: bold;
+}
+/*Boton Administrador de Productos*/
+#boton {
+    width: 10em;
+    margin:0 auto;
+}
+#boton li{
+    width: 10em;
+    font-weight: bold;
+}
+/*Zona de Catalogo y Carrito*/
+img {
+    width: 10em;
+    height: 10em;
+}
+form input[type = submit]{
+    width: 7em;
+    height: 1.75em;
+    font-size: 0.75em;
+    font-weight: bold;
+    border: none;
+    box-shadow: 1px 1px 1px gray;
+}
+#catalogo {
+    border-right: #EEE 1px solid;
+}
+#catalogo h3, #carrito h3{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#total {
+    font-weight: bold;
+}
+/*Tabla*/
+td, th {
+    width: 15%;
+}
+td img {
+    width:75px;
+    height: 75px;
+}
